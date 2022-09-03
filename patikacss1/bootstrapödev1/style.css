@@ -1,0 +1,71 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+nav{
+    border:none;
+    width:100%;
+    height:50px;
+    background-color:rgb(77, 77, 150);
+}
+nav a{
+    display:inline-block;
+    padding-right:5px;
+    line-height:50px;
+    color:white;
+    text-decoration:none;
+}
+.jumbotron{
+    background-color:#E9ECEF;
+}
+.jumbotron h1,.jumbotron h4 ,.jumbotron p ,ul{
+    text-align:center;
+}
+.jumbotron h1{
+    color:rgb(77, 77, 150);
+    padding-top:5px;
+}
+.jumbotron h4{
+    color:rgb(77, 77, 150);
+}
+.jumbotron li{
+    color:black;
+    border:1px solid rgb(77, 77, 150);;
+    list-style-type:square;
+    font-weight:bolder;
+    font-style:normal;
+    font-size:16px;
+    font-family:'Courier New', Courier, monospace;
+}
+.urunbaslik{
+    text-align:center;
+    font-size:32px;
+    font-variant: small-caps;
+    margin-top:15px;
+}
+.col-sm[type="button"]{
+    padding-bottom:5px;
+}
+.col-sm img{
+    display:inline-block;
+    padding-bottom:5px;
+}
+.col-sm p{
+    padding-top:10px;
+}
+.ww,.wh2,.wp{
+    text-align:center;
+    padding-bottom:10px;
+}
+.ww,.wh2{
+    color:red;
+}
+.ww{
+    font-variant:all-small-caps;
+    font-weight:bolder;
+}
+
+
+
+
